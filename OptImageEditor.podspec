@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   
   s.source_files  = ["CLImageEditor/*.{h,m,mm}", "CLImageEditor/**/*.{h,m,mm}", "OptionalImageTools/**/*.{h,m,mm}", "OptImageEditor/OptImageEditor.h"]
   s.public_header_files = ["OptImageEditor/OptImageEditor.h"]
-  s.resources = "CLImageEditor/*.bundle"
+  s.resource_bundles = { "CLImageEditor" => "CLImageEditor/*.{bundle}" }
   s.requires_arc = true
   s.frameworks = "CoreGraphics", "CoreImage", "Accelerate"
 
