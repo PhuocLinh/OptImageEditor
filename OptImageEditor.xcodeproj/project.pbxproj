@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		20B2A9441CC8D0ED0054C811 /* OptImageEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B2A9431CC8D0ED0054C811 /* OptImageEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20B2A9D01CC8D1A90054C811 /* CLImageEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20B2A9611CC8D1A90054C811 /* CLImageEditor.bundle */; };
-		20B2A9D11CC8D1A90054C811 /* CLImageEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B2A9621CC8D1A90054C811 /* CLImageEditor.h */; };
+		20B2A9D11CC8D1A90054C811 /* CLImageEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B2A9621CC8D1A90054C811 /* CLImageEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20B2A9D21CC8D1A90054C811 /* CLImageEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B2A9631CC8D1A90054C811 /* CLImageEditor.m */; };
 		20B2A9D31CC8D1A90054C811 /* CLImageEditorTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B2A9641CC8D1A90054C811 /* CLImageEditorTheme.h */; };
 		20B2A9D41CC8D1A90054C811 /* CLImageEditorTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B2A9651CC8D1A90054C811 /* CLImageEditorTheme.m */; };
@@ -501,8 +501,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20B2A9FD1CC8D1A90054C811 /* CLColorPickerView.h in Headers */,
-				20B2AA211CC8D1AA0054C811 /* CLPickerDrum.h in Headers */,
 				20B2A9D11CC8D1A90054C811 /* CLImageEditor.h in Headers */,
+				20B2AA211CC8D1AA0054C811 /* CLPickerDrum.h in Headers */,
 				20B2AA251CC8D1AA0054C811 /* CLTextLabel.h in Headers */,
 				20B2A9441CC8D0ED0054C811 /* OptImageEditor.h in Headers */,
 				20B2AA131CC8D1A90054C811 /* _CLImageEditorViewController.h in Headers */,
@@ -811,6 +811,7 @@
 				20B2A94A1CC8D0ED0054C811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
